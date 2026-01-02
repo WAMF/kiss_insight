@@ -1,0 +1,26 @@
+name: kiss_insight
+description: >-
+  A lightweight, provider-agnostic analytics interface for Flutter.
+  Easily track impressions, intents, and actions with pluggable backends.
+version: 0.0.1
+homepage: https://github.com/WeAreMobileFirst/kiss_insight
+repository: https://github.com/WeAreMobileFirst/kiss_insight
+issue_tracker: https://github.com/WeAreMobileFirst/kiss_insight/issues
+topics:
+  - analytics
+  - tracking
+  - flutter
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^7.0.0
